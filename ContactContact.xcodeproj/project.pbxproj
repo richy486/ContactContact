@@ -41,6 +41,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		B9121CB02C597A1600375B11 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = SOURCE_ROOT; };
 		B91481C62C23031300D4D9D5 /* ContactContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91481C92C23031300D4D9D5 /* ContactContactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactContactApp.swift; sourceTree = "<group>"; };
 		B91481CD2C23031400D4D9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -120,6 +121,7 @@
 				B993DA682C4815F100A8BA2C /* Extensions */,
 				B91481CD2C23031400D4D9D5 /* Assets.xcassets */,
 				B91481D22C23031400D4D9D5 /* ContactContact.entitlements */,
+				B9121CB02C597A1600375B11 /* README.md */,
 				B91481CF2C23031400D4D9D5 /* Preview Content */,
 			);
 			path = ContactContact;
