@@ -63,6 +63,10 @@ extension BarViewModel: SimplePingDelegate {
 
   func simplePing(_ pinger: SimplePing, didFailWithError error: any Error) {
     value = .failure(ContactError.failure)
+
+    DispatchQueue.main.asyncAfter(deadline: .now() + 1) {
+      pinger.start()
+    }
   }
 
   func simplePing(_ pinger: SimplePing, 
