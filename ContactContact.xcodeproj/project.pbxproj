@@ -8,12 +8,19 @@
 
 /* Begin PBXBuildFile section */
 		B91481CA2C23031300D4D9D5 /* ContactContactApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91481C92C23031300D4D9D5 /* ContactContactApp.swift */; };
-		B91481CC2C23031300D4D9D5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91481CB2C23031300D4D9D5 /* ContentView.swift */; };
 		B91481CE2C23031400D4D9D5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91481CD2C23031400D4D9D5 /* Assets.xcassets */; };
 		B91481D12C23031400D4D9D5 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B91481D02C23031400D4D9D5 /* Preview Assets.xcassets */; };
 		B91481DC2C23031400D4D9D5 /* ContactContactTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91481DB2C23031400D4D9D5 /* ContactContactTests.swift */; };
 		B91481E62C23031500D4D9D5 /* ContactContactUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91481E52C23031500D4D9D5 /* ContactContactUITests.swift */; };
 		B91481E82C23031500D4D9D5 /* ContactContactUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B91481E72C23031500D4D9D5 /* ContactContactUITestsLaunchTests.swift */; };
+		B914820D2C2422A200D4D9D5 /* SimplePing.m in Sources */ = {isa = PBXBuildFile; fileRef = B914820B2C2422A200D4D9D5 /* SimplePing.m */; };
+		B92795992C2D6F61001ED610 /* RenderedImage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92795982C2D6F61001ED610 /* RenderedImage.swift */; };
+		B927959B2C2D6FB3001ED610 /* TimeInterval+millisecond.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927959A2C2D6FB3001ED610 /* TimeInterval+millisecond.swift */; };
+		B927959D2C2D8DF1001ED610 /* BarViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B927959C2C2D8DF1001ED610 /* BarViewModel.swift */; };
+		B92C25CD2C244B4400679E42 /* BarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C25CC2C244B4400679E42 /* BarView.swift */; };
+		B92C25CF2C244B5E00679E42 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C25CE2C244B5E00679E42 /* Menu.swift */; };
+		B92C25D12C256B9100679E42 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C25D02C256B9100679E42 /* Options.swift */; };
+		B9E9AB682C5389AB00DBFFAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9AB672C5389AB00DBFFAC /* SettingsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -36,7 +43,6 @@
 /* Begin PBXFileReference section */
 		B91481C62C23031300D4D9D5 /* ContactContact.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ContactContact.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91481C92C23031300D4D9D5 /* ContactContactApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactContactApp.swift; sourceTree = "<group>"; };
-		B91481CB2C23031300D4D9D5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		B91481CD2C23031400D4D9D5 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B91481D02C23031400D4D9D5 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		B91481D22C23031400D4D9D5 /* ContactContact.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ContactContact.entitlements; sourceTree = "<group>"; };
@@ -45,6 +51,17 @@
 		B91481E12C23031400D4D9D5 /* ContactContactUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ContactContactUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B91481E52C23031500D4D9D5 /* ContactContactUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactContactUITests.swift; sourceTree = "<group>"; };
 		B91481E72C23031500D4D9D5 /* ContactContactUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactContactUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		B91482082C24211800D4D9D5 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B914820A2C2422A200D4D9D5 /* ContactContact-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ContactContact-Bridging-Header.h"; sourceTree = "<group>"; };
+		B914820B2C2422A200D4D9D5 /* SimplePing.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SimplePing.m; sourceTree = "<group>"; };
+		B914820C2C2422A200D4D9D5 /* SimplePing.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SimplePing.h; sourceTree = "<group>"; };
+		B92795982C2D6F61001ED610 /* RenderedImage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RenderedImage.swift; sourceTree = "<group>"; };
+		B927959A2C2D6FB3001ED610 /* TimeInterval+millisecond.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "TimeInterval+millisecond.swift"; sourceTree = "<group>"; };
+		B927959C2C2D8DF1001ED610 /* BarViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarViewModel.swift; sourceTree = "<group>"; };
+		B92C25CC2C244B4400679E42 /* BarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarView.swift; sourceTree = "<group>"; };
+		B92C25CE2C244B5E00679E42 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
+		B92C25D02C256B9100679E42 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
+		B9E9AB672C5389AB00DBFFAC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +93,7 @@
 			isa = PBXGroup;
 			children = (
 				B91481C82C23031300D4D9D5 /* ContactContact */,
+				B91482092C24228E00D4D9D5 /* ThirdParty */,
 				B91481DA2C23031400D4D9D5 /* ContactContactTests */,
 				B91481E42C23031500D4D9D5 /* ContactContactUITests */,
 				B91481C72C23031300D4D9D5 /* Products */,
@@ -96,7 +114,10 @@
 			isa = PBXGroup;
 			children = (
 				B91481C92C23031300D4D9D5 /* ContactContactApp.swift */,
-				B91481CB2C23031300D4D9D5 /* ContentView.swift */,
+				B91482082C24211800D4D9D5 /* Info.plist */,
+				B993DA662C4815C700A8BA2C /* Models */,
+				B993DA672C4815CC00A8BA2C /* Views */,
+				B993DA682C4815F100A8BA2C /* Extensions */,
 				B91481CD2C23031400D4D9D5 /* Assets.xcassets */,
 				B91481D22C23031400D4D9D5 /* ContactContact.entitlements */,
 				B91481CF2C23031400D4D9D5 /* Preview Content */,
@@ -127,6 +148,44 @@
 				B91481E72C23031500D4D9D5 /* ContactContactUITestsLaunchTests.swift */,
 			);
 			path = ContactContactUITests;
+			sourceTree = "<group>";
+		};
+		B91482092C24228E00D4D9D5 /* ThirdParty */ = {
+			isa = PBXGroup;
+			children = (
+				B914820C2C2422A200D4D9D5 /* SimplePing.h */,
+				B914820B2C2422A200D4D9D5 /* SimplePing.m */,
+				B914820A2C2422A200D4D9D5 /* ContactContact-Bridging-Header.h */,
+			);
+			path = ThirdParty;
+			sourceTree = "<group>";
+		};
+		B993DA662C4815C700A8BA2C /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B927959C2C2D8DF1001ED610 /* BarViewModel.swift */,
+				B92C25D02C256B9100679E42 /* Options.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B993DA672C4815CC00A8BA2C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B92C25CC2C244B4400679E42 /* BarView.swift */,
+				B92C25CE2C244B5E00679E42 /* Menu.swift */,
+				B92795982C2D6F61001ED610 /* RenderedImage.swift */,
+				B9E9AB672C5389AB00DBFFAC /* SettingsView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B993DA682C4815F100A8BA2C /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				B927959A2C2D6FB3001ED610 /* TimeInterval+millisecond.swift */,
+			);
+			path = Extensions;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -197,6 +256,7 @@
 				TargetAttributes = {
 					B91481C52C23031300D4D9D5 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 					B91481D62C23031400D4D9D5 = {
 						CreatedOnToolsVersion = 15.3;
@@ -259,8 +319,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B91481CC2C23031300D4D9D5 /* ContentView.swift in Sources */,
+				B927959B2C2D6FB3001ED610 /* TimeInterval+millisecond.swift in Sources */,
+				B914820D2C2422A200D4D9D5 /* SimplePing.m in Sources */,
 				B91481CA2C23031300D4D9D5 /* ContactContactApp.swift in Sources */,
+				B9E9AB682C5389AB00DBFFAC /* SettingsView.swift in Sources */,
+				B92795992C2D6F61001ED610 /* RenderedImage.swift in Sources */,
+				B927959D2C2D8DF1001ED610 /* BarViewModel.swift in Sources */,
+				B92C25CF2C244B5E00679E42 /* Menu.swift in Sources */,
+				B92C25D12C256B9100679E42 /* Options.swift in Sources */,
+				B92C25CD2C244B4400679E42 /* BarView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -420,6 +487,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ContactContact/ContactContact.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -429,6 +497,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactContact/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -438,6 +508,8 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.richy486.ContactContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdParty/ContactContact-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
@@ -447,6 +519,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_ENTITLEMENTS = ContactContact/ContactContact.entitlements;
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
@@ -456,6 +529,8 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = ContactContact/Info.plist;
+				INFOPLIST_KEY_LSUIElement = YES;
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -465,6 +540,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.richy486.ContactContact;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ThirdParty/ContactContact-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
