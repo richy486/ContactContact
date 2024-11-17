@@ -15,7 +15,8 @@ struct Menu: View {
     @Bindable var options = options
     Toggle("Show borders", isOn: $options.showBorders)
     Toggle("Show icon", isOn: $options.showIcon)
-    Button("Settings") {
+    Divider()
+    Button("Settings…") {
       NSApplication.shared.activate(ignoringOtherApps: true)
       openWindow(id: "settings-window")
     }
