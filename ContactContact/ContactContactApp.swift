@@ -19,7 +19,7 @@ import SwiftUI
         .environment(options)
     }
 
-    Window("Settings", id: "settings-window") {
+    Window("Settings", id: GlobalConstants.settingsWindowId) {
       SettingsView()
         .environment(options)
     }

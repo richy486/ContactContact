@@ -21,6 +21,7 @@
 		B92C25CF2C244B5E00679E42 /* Menu.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C25CE2C244B5E00679E42 /* Menu.swift */; };
 		B92C25D12C256B9100679E42 /* Options.swift in Sources */ = {isa = PBXBuildFile; fileRef = B92C25D02C256B9100679E42 /* Options.swift */; };
 		B9E9AB682C5389AB00DBFFAC /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9E9AB672C5389AB00DBFFAC /* SettingsView.swift */; };
+		B9FB385F2D0F426400B2EDCD /* GlobalConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9FB385E2D0F426000B2EDCD /* GlobalConstants.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +64,7 @@
 		B92C25CE2C244B5E00679E42 /* Menu.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Menu.swift; sourceTree = "<group>"; };
 		B92C25D02C256B9100679E42 /* Options.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Options.swift; sourceTree = "<group>"; };
 		B9E9AB672C5389AB00DBFFAC /* SettingsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SettingsView.swift; sourceTree = "<group>"; };
+		B9FB385E2D0F426000B2EDCD /* GlobalConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GlobalConstants.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,6 +116,7 @@
 		B91481C82C23031300D4D9D5 /* ContactContact */ = {
 			isa = PBXGroup;
 			children = (
+				B9FB385E2D0F426000B2EDCD /* GlobalConstants.swift */,
 				B91481C92C23031300D4D9D5 /* ContactContactApp.swift */,
 				B91482082C24211800D4D9D5 /* Info.plist */,
 				B993DA662C4815C700A8BA2C /* Models */,
@@ -323,6 +326,7 @@
 			files = (
 				B927959B2C2D6FB3001ED610 /* TimeInterval+millisecond.swift in Sources */,
 				B914820D2C2422A200D4D9D5 /* SimplePing.m in Sources */,
+				B9FB385F2D0F426400B2EDCD /* GlobalConstants.swift in Sources */,
 				B91481CA2C23031300D4D9D5 /* ContactContactApp.swift in Sources */,
 				B9E9AB682C5389AB00DBFFAC /* SettingsView.swift in Sources */,
 				B92795992C2D6F61001ED610 /* RenderedImage.swift in Sources */,

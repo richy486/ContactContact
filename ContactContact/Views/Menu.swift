@@ -18,7 +18,7 @@ struct Menu: View {
     Divider()
     Button("Settings…") {
       NSApplication.shared.activate(ignoringOtherApps: true)
-      openWindow(id: "settings-window")
+      openWindow(id: GlobalConstants.settingsWindowId)
     }
     Button("Quit") {
       exit(0)
